@@ -11,6 +11,16 @@ function pingPong(input) {
       result.push(i);
     }
   }
-  console.log(result);
-}
-pingPong(50);
+  return result;
+};
+// console.log(pingPong(10));
+
+$(function() {
+  $("#button").click(function(){
+    event.preventDefault();
+    var number = parseInt($('#input').val());
+    $("#results").text(pingPong(number));
+   $('.results').show();
+
+  });
+});

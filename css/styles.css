@@ -1,0 +1,39 @@
+.results {
+  display: none;
+}
+
+img{
+  max-width: 90%;
+  margin-left:
+}
+
+img.displayed {
+    display: block;
+    margin-left: 55px;
+    margin-right: auto
+    position:relative }
+
+.container {
+  background-color: #f7df27;
+min-height: 1200px;
+
+}
+
+.jumbotron{
+  text-align: center;
+  /*width: 1170px;
+  padding-left: 0px;
+  padding-right: 5px;*/
+  background-color: #FDFDF4;
+  margin-bottom: 0px;
+  max-width: 1026px;
+  margin-left: 55px;
+}
+
+
+  span {
+      color: white;
+      position:absolute;
+      bottom: 500px;
+      left: 300px;
+  }
