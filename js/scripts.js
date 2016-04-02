@@ -19,8 +19,13 @@ $(function() {
   $("#button").click(function(){
     event.preventDefault();
     var number = parseInt($('#input').val());
-    $("#results").text(pingPong(number));
-   $('.results').show();
+    $('#firstplay').text(pingPong(number));
+
+    var fullplay=pingPong(number);
+    for (i=0; i<number; i++){
+    $('#fullplay').append('<li>' + fullplay[i] + '</li>');
+  }
+ $('.results').show();
 
   });
 });

@@ -31,9 +31,13 @@ min-height: 1200px;
 }
 
 
-  span {
+span#firstplay{
       color: white;
       position:absolute;
       bottom: 500px;
       left: 300px;
   }
+
+span#totalplay {
+
+}
